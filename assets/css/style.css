@@ -1,0 +1,36 @@
+/* style.css */
+body {
+  background-image: url('../images/stressed.png'); /* path to your image */
+  background-size: cover;       /* scales image to cover entire area */
+  background-repeat: no-repeat; /* prevents tiling */
+  background-position: center;  /* keeps image centered */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(25, 25, 126);
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.6); /* semi-transparent white */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .nav-link.active {
+    color: rgb(46, 46, 228);
+}
+
+.jumbotron {
+color: rgb(25, 25, 126);
+}
+
+.card,
+.list-group-item {
+color: rgb(25, 25, 126);
+}
+
+.testimonial-img { width: 100px; height: auto; display: block; }
+
+@media (min-width: 768px) { .testimonial-img { width: 200px !important; } }
+
+@media (min-width: 992px) { .testimonial-img { width: 300px !important; } }
